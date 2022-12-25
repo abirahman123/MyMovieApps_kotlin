@@ -1,6 +1,5 @@
 package example.myapplication.mvvm.model
 
-import androidx.lifecycle.LiveData
 import example.myapplication.api.ApiClient
 import example.myapplication.api.response.MovieResponse
 import example.myapplication.database.MovieDao
