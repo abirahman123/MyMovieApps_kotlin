@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName
 
 
 
-
+//menampilkan data review dari sebuah film
 class ReviewResponse {
     @SerializedName("id")
     @Expose

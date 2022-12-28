@@ -8,6 +8,7 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
+//class data yang digunakan untuk memuat data deskripsi dari sebuah film
 @Entity(tableName = "favourite_movie")
 class MovieResponse : Serializable{
     @SerializedName("poster_path")

@@ -87,9 +87,9 @@
                 android:singleLine="true"
                 android:text="Judul"
                 android:textAlignment="viewStart"
+                android:textColor="@color/textColor"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/textColor"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt_release"
@@ -119,9 +119,9 @@
                 android:singleLine="true"
                 android:text="Deskripsi"
                 android:textAlignment="viewStart"
+                android:textColor="@color/textColor"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/textColor"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txt_content"
@@ -130,8 +130,8 @@
                 android:layout_gravity="start"
                 android:text="Title"
                 android:textAlignment="viewStart"
-                android:textSize="14sp"
-                android:textColor="@color/textColor"/>
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
         </LinearLayout>
 
         <TextView
@@ -142,16 +142,16 @@
             android:layout_marginBottom="10dp"
             android:text="Rating"
             android:textAlignment="viewStart"
+            android:textColor="@color/textColor"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/textColor"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txt_no_review"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Belum ada rating"
-            android:textColor="@color/textColor"/>
+            android:textColor="@color/textColor" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/lv_review"

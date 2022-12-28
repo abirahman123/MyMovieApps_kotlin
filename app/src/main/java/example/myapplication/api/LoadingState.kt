@@ -1,5 +1,6 @@
 package example.myapplication.api
 
+//menampilkan animasi loading
 data class LoadingState private constructor(val status: Status, val msg: String? = null) {
     companion object {
         val LOADED = LoadingState(Status.SUCCESS)

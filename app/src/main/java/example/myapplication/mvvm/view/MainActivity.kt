@@ -19,6 +19,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 
+//menampilkan daftar film populer, rating tertinggi, dan film sedang tayang di halaman depan
 class MainActivity : AppCompatActivity(), PopularMoviesAdapter.onItemClick, TopRatedAdapter.onItemRatedClick {
     private val mv by viewModel<MainViewModel>()
 

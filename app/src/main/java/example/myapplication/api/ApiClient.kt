@@ -9,6 +9,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
+//implementasi API untuk mengambil data dari internet
 interface ApiClient {
     @GET("movie/popular")
     fun getPopular(

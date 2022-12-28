@@ -14,6 +14,7 @@ import example.myapplication.utils.Utils
 import kotlinx.android.synthetic.main.model_list_movies_top_rated.view.*
 import java.lang.Exception
 
+//class adapter untuk tampilan/daftar film dengan rating tertinggi
 class TopRatedAdapter(private val mContext: Context, private val list: List<MovieResponse>, private var onClickItem: TopRatedAdapter.onItemRatedClick) : RecyclerView.Adapter<TopRatedAdapter.Holder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
         return Holder(

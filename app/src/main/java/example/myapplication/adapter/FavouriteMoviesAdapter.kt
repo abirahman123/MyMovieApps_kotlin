@@ -14,6 +14,7 @@ import example.myapplication.utils.Utils
 import kotlinx.android.synthetic.main.model_list_movies_favourite.view.*
 import java.lang.Exception
 
+//class adapter untuk menampilkan item pada halaman favorite
 class FavouriteMoviesAdapter(private val mContext: Context, private val list: List<MovieResponse>, private var onClickItem: FavouriteMoviesAdapter.onItemRatedClick) : RecyclerView.Adapter<FavouriteMoviesAdapter.Holder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
         return Holder(
@@ -25,6 +26,7 @@ class FavouriteMoviesAdapter(private val mContext: Context, private val list: Li
         )
     }
 
+//    menampilkan daftar film pada halaman favorite
     override fun getItemCount(): Int = list?.size
 
     override fun onBindViewHolder(holder: Holder, position: Int) {

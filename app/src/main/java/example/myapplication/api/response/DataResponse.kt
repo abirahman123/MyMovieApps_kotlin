@@ -3,6 +3,7 @@ package example.myapplication.api.response
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
+//class data untuk mendefinisikan data yg akan di tampilkan
 class DataResponse<T> {
     @SerializedName("page")
     @Expose

@@ -15,6 +15,7 @@ import example.myapplication.api.response.ReviewResponse
 import kotlinx.android.synthetic.main.model_review.view.*
 
 
+//class adapter untuk tampilan/daftar film yang sedang tayang
 class ReviewAdapter(private val mContext: Context, private val list: List<ReviewResponse.Result>) : RecyclerView.Adapter<ReviewAdapter.Holder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
         return Holder(

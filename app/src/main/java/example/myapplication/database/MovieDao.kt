@@ -8,6 +8,7 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import example.myapplication.api.response.MovieResponse
 
+//implementasi Dao
 @Dao
 interface MovieDao {
     @Query("Select * from favourite_movie where id = :id")

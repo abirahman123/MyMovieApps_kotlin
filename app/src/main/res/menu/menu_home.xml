@@ -16,4 +16,14 @@
 
         android:title="Item One"/>
 
+    <item
+
+        android:id="@+id/action_two"
+
+        android:icon="@drawable/ic_list_order"
+
+        app:showAsAction="always"
+
+        android:title="Item One"/>
+
 </menu>

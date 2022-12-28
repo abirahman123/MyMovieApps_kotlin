@@ -13,6 +13,8 @@ import example.myapplication.api.response.MovieResponse
 import kotlinx.android.synthetic.main.model_list_movies.view.*
 import java.lang.Exception
 
+
+//class adapter untuk daftar film terpopuler
 class PopularMoviesAdapter(private val mContext: Context, private val list: List<MovieResponse>, private var onClickItem: PopularMoviesAdapter.onItemClick) : RecyclerView.Adapter<PopularMoviesAdapter.Holder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
         return Holder(
