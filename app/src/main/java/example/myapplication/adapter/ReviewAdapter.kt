@@ -60,5 +60,6 @@ class ReviewAdapter(private val mContext: Context, private val list: List<Review
 
     }
 
+    // Menambahkan recycleview
     class Holder(val view: View) : RecyclerView.ViewHolder(view)
 }

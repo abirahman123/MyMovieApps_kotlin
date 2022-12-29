@@ -53,6 +53,7 @@ class PopularMoviesAdapter(private val mContext: Context, private val list: List
 
     }
 
+    // Menambahkan recycleview
     class Holder(val view: View) : RecyclerView.ViewHolder(view)
 
     interface onItemClick{

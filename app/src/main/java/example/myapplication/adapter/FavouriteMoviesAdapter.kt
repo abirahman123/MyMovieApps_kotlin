@@ -52,7 +52,7 @@ class FavouriteMoviesAdapter(private val mContext: Context, private val list: Li
 
 
     }
-
+// Menambahkan recycleview
     class Holder(val view: View) : RecyclerView.ViewHolder(view)
 
     interface onItemRatedClick{
